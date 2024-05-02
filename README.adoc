@@ -1,0 +1,22 @@
+= MC6809-MC6809E 8-Bit Microprocessor Programming Manual [M6809PM/AD]
+
+== About
+This is the Programming Manual for the 6809 microprocessor © Motorola Inc., 1981. +
+Original Issue: March 1, 1981 +
+Reprinted: May 1983
+
+Sections 1-4 got HTMLlized plus appendices A, C, D, E and F, so you can easily search inside the text.
+The original layout of the print was kept wherever possible.
+Also some corrections were made to the text and are listed at the end of index page.
+Initial work was done by @maddes-b and published on link:https://www.maddes.net/[his homepage].
+Download the archive for using it locally.
+
+The original PDFs are added to this repository too.
+
+If you think there are any legal concerns to this please contact us via discussions or issues.
+
+And remember: Use all information at your own risk. +
+If you find any issues within the HTMLized version, then please tell us and raise an issue.
+
+Yours +
+M6809-Docs team
