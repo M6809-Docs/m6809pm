@@ -534,7 +534,7 @@ When used after a subtract or compare operation, this instruction will branch if
   </tr>
   <tr>
     <td class="bold">Operation:</td><td colspan="2" class="flat">TEMP &larr; MI<br>
-IFF [N &oplus; V] = 0 then PC' &larr; PC + TEMP</td>
+IFF [ N &oplus; V ] = 0 then PC' &larr; PC + TEMP</td>
   </tr>
   <tr>
     <td class="bold">Condition Codes:</td><td colspan="2" class="flat">Not affected.</td>
@@ -557,7 +557,7 @@ When used after a subtract or compare operation on twos complement values, this 
   </tr>
   <tr>
     <td class="bold">Operation:</td><td colspan="2" class="flat">TEMP &larr; MI<br>
-IFF Z &and; [N &oplus; V] = 0 then PC' &larr; PC + TEMP</td>
+IFF <span class="errata">[</span> Z <span class="errata">&or;</span> [ N &oplus; V ] <span class="errata">]</span> = 0 then PC' &larr; PC + TEMP</td>
   </tr>
   <tr>
     <td class="bold">Condition Codes:</td><td colspan="2" class="flat">Not affected.</td>
@@ -670,7 +670,7 @@ The contents of accumulator A or B and memory location M are not affected.</td>
   </tr>
   <tr>
     <td class="bold">Operation:</td><td colspan="2" class="flat">TEMP &larr; MI<br>
-IFF Z &or; [ N &oplus; V ] = 1 then PC' &larr; PC + TEMP</td>
+IFF <span class="errata">[</span> Z &or; [ N &oplus; V ] <span class="errata">]</span> = 1 then PC' &larr; PC + TEMP</td>
   </tr>
   <tr>
     <td class="bold">Condition Codes:</td><td colspan="2" class="flat">Not affected.</td>
@@ -719,7 +719,7 @@ Generally not useful after INC/DEC, LD/ST, and TST/CLR/COM instructions.</td>
   </tr>
   <tr>
     <td class="bold">Operation:</td><td colspan="2" class="flat">TEMP &larr; MI<br>
-IFF (C &or; Z) = 1 then PC' &larr; PC + TEMP</td>
+IFF <span class="correction">[</span> C &or; Z <span class="correction">]</span> = 1 then PC' &larr; PC + TEMP</td>
   </tr>
   <tr>
     <td class="bold">Condition Codes:</td><td colspan="2" class="flat">Not affected.</td>
