@@ -9,7 +9,8 @@
 .bold { font-weight:bold; }
 
 .lowsignal { text-decoration:overline; }
-.correction { color:red; }
+.errata { color:#dd0000; }
+.correction { color:#990000; }
 
 /* All borders */
 .borders { border-style:solid; }

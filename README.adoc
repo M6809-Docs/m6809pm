@@ -7,11 +7,11 @@ Reprinted: May 1983
 
 Sections 1-4 got HTMLlized plus appendices A, C, D, E and F, so you can easily search inside the text.
 The original layout of the print was kept wherever possible.
-Also some corrections were made to the text and are listed at the end of index page.
+Also some additional errata and corrections were made to the text.
 Initial work was done by @maddes-b and published on link:https://www.maddes.net/[his homepage].
 Download the archive for using it locally.
 
-The original PDFs are added to this repository too.
+The original PDFs are available in this repository too.
 
 If you think there are any legal concerns to this please contact us via discussions or issues.
 

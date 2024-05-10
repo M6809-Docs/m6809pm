@@ -16,8 +16,10 @@
 <hr>
 
 <h1>MC6809-MC6809E 8-Bit Microprocessor Programming Manual [M6809PM/AD]<br>&copy; Motorola Inc., 1981</h1>
+<p>Sections: PDF pages 13-48</p>
 
 <h1><a name="sec1">SECTION 1 - GENERAL DESCRIPTION</a></h1>
+<p>PDF pages 13-24</p>
 <h2><a name="sec1_1">1.1 INTRODUCTION</a></h2>
 <p>This section contains a general description of the Motorola MC6809 and MC6809E Microprocessor Units (MPU).
 Pin assignments and a brief description of each input/output signal are also given.
@@ -280,6 +282,7 @@ Another dead cycle will elapse before the processor accesses memory, to allow tr
 <p>Two inputs are used to supply power to the processor: V<sub>CC</sub> is +5.0 &plusmn;5%, while V<sub>SS</sub> is ground or 0 volts.</p>
 
 <h1><a name="sec2">SECTION 2 - ADDRESSING MODES</a></h1>
+<p>PDF pages 25-30</p>
 <h2><a name="sec2_1">2.1 INTRODUCTION</a></h2>
 <p>This section contains a description of each of the addressing modes available on these processors.</p>
 <h2><a name="sec2_2">2.2 ADDRESSING MODES</a></h2>
@@ -646,6 +649,7 @@ This is called a long relative branch and the range is plus 32,767 or minus 32,7
 </table>
 
 <h1><a name="sec3">SECTION 3 - INTERRUPT CAPABILITIES</a></h1>
+<p>PDF pages 31-34</p>
 <h2><a name="sec3_1">3.1 INTRODUCTION</a></h2>
 <p>The MC6809 and MC6809E microprocessors have six vectored interrupts (three hardware and three software).
 The hardware interrupts are the non-maskable interrupt (<span class="lowsignal">NMI</span>), the fast maskable interrupt request (<span class="lowsignal">FIRQ</span>), and the normal maskable interrupt request (<span class="lowsignal">IRQ</span>).
@@ -739,6 +743,7 @@ The remaining software interrupt request inputs (SWI2 and SWI3) do not have the 
 <a name="fig3-1"></a><a href="gfx/figure3-1.jpg"><img src="gfx/figure3-1.jpg" alt="Figure 3-1: Interrupt Processing Flowchart" title="Interrupt Processing Flowchart" width="400" border="0" /></a></p>
 
 <h1><a name="sec4">SECTION 4 - PROGRAMMING</a></h1>
+<p>PDF pages 35-48</p>
 <h2><a name="sec4_1">4.1 INTRODUCTION</a></h2>
 <p>These processors are designed to be source-code compatible with the M6800 to make use of the substantial existing base of M6800 software and training.
 However, this asset should not overshadow the capabilities built into these processors that allow more modern programming techniques such as position-independence, modular programming, and reentrancy/recursion to be used on a microprocessor-based system.
@@ -1413,7 +1418,7 @@ They are:</p>
     <td>PSHS</td><td>Push A, B, CC, DP, D, X, Y, U, or PC onto hardware stack</td>
   </tr>
   <tr>
-    <td>PSHU</td><td>Push A, B, CC, DP, D, X, Y, <span class="correction">S</span>, or PC onto user stack</td>
+    <td>PSHU</td><td>Push A, B, CC, DP, D, X, Y, <span class="errata">S</span>, or PC onto user stack</td>
   </tr>
   <tr>
     <td>PULS</td><td>Pull A, B, CC, DP, D, X, Y, U, or PC from hardware stack</td>

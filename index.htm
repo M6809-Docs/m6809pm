@@ -19,15 +19,15 @@
 <p>Original Issue: March 1, 1981<br>
 Reprinted: May 1983</p>
 
-<p>Last update: <a href="#changelog">2023-08-15</a></p>
+<p>Last update: <a href="#changelog">2024-05-09</a></p>
 
 <ul>
   <li><a href="#foreword">Foreword</a></li>
-  <li><a href="#corrections">Corrections</a></li>
-  <li><a href="#toc">Table Of Contents</a></li>
-  <li><a href="#loi">List Of Illustrations</a></li>
-  <li><a href="#lot">List Of Tables</a></li>
-  <li><a href="#legal">Legal Stuff</a></li>
+  <li><a href="#errata">Errata &amp; Corrections</a></li>
+  <li><a href="#toc">Table Of Contents</a> (PDF pages 5-10)</li>
+  <li><a href="#loi">List Of Illustrations</a> (PDF page 10)</li>
+  <li><a href="#lot">List Of Tables</a> (PDF pages 11-12)</li>
+  <li><a href="#legal">Legal Stuff</a> (PDF page 220)</li>
   <li><a href="#links">Links</a></li>
   <li><a href="#changelog">Change log</a></li>
 </ul>
@@ -40,22 +40,42 @@ It is &copy; Motorola Inc., 1981.<br>
 PDFs are available at the <a href="https://github.com/M6809-Docs/m6809pm" target="_top">M6809PM repo</a> of the M6809 Docs team (M6809PM.rev0_May83.pdf, m6809pm.fsl.ad.rev0.pdf) or at <a href="https://www.maddes.net/files/m6809pm/" target="_top">Maddes.net</a>.<br>
 <a href="sections.htm">Sections 1-4</a> plus appendices <a href="appendix_a.htm">A</a>, <a href="appendix_c.htm">C</a>, <a href="appendix_d.htm">D</a>, <a href="appendix_e.htm">E</a> and <a href="appendix_f.htm">F</a> got htmlized, so you can easily search inside the text.
 The original layout of the print was kept wherever possible.<br>
-Also some corrections were made to the text.
-Corrections are formatted like <span class="correction">this</span>.<br>
-If you think there are any legal concerns to this please contact me via the contact link.<br>
+Also some additional errata and corrections were made to the text.<br>
+If you think there are any legal concerns to this please contact us via the contact link.<br>
 And remember: Use all information at your own risk.</p>
 <p>Get all html pages as a zip file from the <a href="https://github.com/M6809-Docs/m6809pm" target="_top">M6809PM repo</a> of the M6809 Docs team.</p>
 
-<h1><a name="corrections">Corrections</a></h1>
-<p>Corrections are formatted like <span class="correction">this</span>.</p>
-<p>Table 4-4: <a href="sections.htm#tab4-4">PSHU</a></p>
-<p>Appendix A: <a href="appendix_a.htm#PSHU">PSHU</a>, <a href="appendix_a.htm#PULU">PULU</a></p>
-<p>Appendix D: <a href="appendix_d.htm#noteD-1a">Branch Notes</a>, <a href="appendix_d.htm#tabD-1f">ASRA, ASRB, LSR, ORB</a>, <a href="appendix_d.htm#tabD-1f">SWI3</a> (Thanks to <a href="http://alex.kazik.de/" target="_top">Alex</a>)</p>
+<h1><a name="errata">Errata &amp; Corrections</a></h1>
+<p>Errata (fixing incorrect information) are formatted like <span class="errata">this</span>.<br>
+Corrections (typos, unambiguousness, readability, etc.) are formatted like <span class="correction">this</span>.<br>
+HTMLization errors will just be fixed and listed in the change log at the end of this page.</p>
+<h2><a name="errata">Errata</a></h2>
+<ul>
+  <li>Table 4-4:<ul>
+    <li><a href="sections.htm#tab4-4">PSHU</a> (PDF page 46) - duplicate X, instead of correct S</li>
+  </ul></li>
+  <li>Appendix A:<ul>
+    <li><a href="appendix_a.htm#PSHU">PSHU</a>, <a href="appendix_a.htm#PULU">PULU</a> (PDF pages 102 &amp; 104) - b6 is S instead of U</li>
+  </ul></li>
+  <li>Appendix D:<ul>
+    <li><a href="appendix_d.htm#tabD-1f">ASRA, ASRB</a> (PDF page 205) - instruction forms incorrectly listed (Thanks to <a href="https://alex.kazik.de/" target="_top">Alex</a>)</li>
+    <li><a href="appendix_d.htm#tabD-1f">LSR, ORB</a> (PDF page 206) - some numbers of MPU Cycles missing (Thanks to <a href="https://alex.kazik.de/" target="_top">Alex</a>)</li>
+    <li><a href="appendix_d.htm#tabD-1f">SWI3</a> (PDF page 206) - some numbers of Program Bytes missing (Thanks to <a href="https://alex.kazik.de/" target="_top">Alex</a>)</li>
+  </ul></li>
+</ul>
+<h2><a name="errata">Corrections</a></h2>
+<ul>
+  <li>Added radix (base) to numbers to show if they are binary &quot;<sub>2</sub>&quot; or hexadecimal &quot;<sub>16</sub>&quot; (may not be 100% yet)</li>
+  <li>Appendix D:<ul>
+    <li><a href="appendix_d.htm#noteD-1a">Branch Notes</a> (PDF pages 204 &amp; 206) - moved &quot;5(6)&quot; note up to Branch Instructions (Thanks to <a href="https://alex.kazik.de/" target="_top">Alex</a>)</li>
+  </ul></li>
+</ul>
 
 <h1><a name="toc">Table Of Contents</a></h1>
+<p>PDF pages 5-10</p>
 <table>
   <tr>
-    <th colspan="5"><a href="sections.htm#sec1">SECTION 1<br>GENERAL DESCRIPTION</a></th>
+    <th colspan="5"><a href="sections.htm#sec1">SECTION 1<br>GENERAL DESCRIPTION</a><br>PDF pages 13-24</th>
   </tr>
   <tr>
     <td class="top left">1.1</td><td colspan="1"></td><td colspan="3"><a href="sections.htm#sec1_1">Introduction</a></td>
@@ -202,7 +222,7 @@ And remember: Use all information at your own risk.</p>
     <td colspan="5">&nbsp;</td>
   </tr>
   <tr>
-    <th colspan="5"><a href="sections.htm#sec2">SECTION 2<br>ADDRESSING MODES</a></th>
+    <th colspan="5"><a href="sections.htm#sec2">SECTION 2<br>ADDRESSING MODES</a><br>PDF pages 25-30</th>
   </tr>
   <tr>
     <td class="top left">2.1</td><td colspan="1"></td><td colspan="3"><a href="sections.htm#sec2_1">Introduction</a></td>
@@ -250,7 +270,7 @@ And remember: Use all information at your own risk.</p>
     <td colspan="5">&nbsp;</td>
   </tr>
   <tr>
-    <th colspan="5"><a href="sections.htm#sec3">SECTION 3<br>INTERRUPT CAPABILITIES</a></th>
+    <th colspan="5"><a href="sections.htm#sec3">SECTION 3<br>INTERRUPT CAPABILITIES</a><br>PDF pages 31-34</th>
   </tr>
   <tr>
     <td class="top left">3.1</td><td colspan="1"></td><td colspan="3"><a href="sections.htm#sec3_1">Introduction</a></td>
@@ -271,7 +291,7 @@ And remember: Use all information at your own risk.</p>
     <td colspan="5">&nbsp;</td>
   </tr>
   <tr>
-    <th colspan="5"><a href="sections.htm#sec4">SECTION 4<br>PROGRAMMING</a></th>
+    <th colspan="5"><a href="sections.htm#sec4">SECTION 4<br>PROGRAMMING</a><br>PDF pages 35-48</th>
   </tr>
   <tr>
     <td class="top left">4.1</td><td colspan="1"></td><td colspan="3"><a href="sections.htm#sec4_1">Introduction</a></td>
@@ -343,7 +363,7 @@ And remember: Use all information at your own risk.</p>
     <td colspan="5">&nbsp;</td>
   </tr>
   <tr>
-    <th colspan="5"><a href="appendix_a.htm#appA">APPENDIX A<br>INSTRUCTION SET DETAILS</a></th>
+    <th colspan="5"><a href="appendix_a.htm#appA">APPENDIX A<br>INSTRUCTION SET DETAILS</a><br>PDF pages 49-124</th>
   </tr>
   <tr>
     <td class="top left">A.1</td><td colspan="1"></td><td colspan="3"><a href="appendix_a.htm#appA_1">Introduction</a></td>
@@ -433,7 +453,7 @@ Instructions (listed in alphabetical order)<br>
     <td colspan="5">&nbsp;</td>
   </tr>
   <tr>
-    <th colspan="5">APPENDIX B<br>ASSIST09 MONITOR PROGRAM</th>
+    <th colspan="5">APPENDIX B<br>ASSIST09 MONITOR PROGRAM<br>PDF pages 125-198</th>
   </tr>
   <tr>
     <td colspan="5" class="top left">Appendix B will not be htmlized.</td>
@@ -442,7 +462,7 @@ Instructions (listed in alphabetical order)<br>
     <td colspan="5">&nbsp;</td>
   </tr>
   <tr>
-    <th colspan="5"><a href="appendix_c.htm#appC">APPENDIX C<br>MACHINE CODE TO INSTRUCTION CROSS REFERENCE</a></th>
+    <th colspan="5"><a href="appendix_c.htm#appC">APPENDIX C<br>MACHINE CODE TO INSTRUCTION CROSS REFERENCE</a><br>PDF pages 199-202</th>
   </tr>
   <tr>
     <td class="top left">C.1</td><td colspan="1"></td><td colspan="3"><a href="appendix_c.htm#appC_1">Introduction</a></td>
@@ -451,7 +471,7 @@ Instructions (listed in alphabetical order)<br>
     <td colspan="5">&nbsp;</td>
   </tr>
   <tr>
-    <th colspan="5"><a href="appendix_d.htm#appD">APPENDIX D<br>PROGRAMMING AID</a></th>
+    <th colspan="5"><a href="appendix_d.htm#appD">APPENDIX D<br>PROGRAMMING AID</a><br>PDF pages 203-206</th>
   </tr>
   <tr>
     <td class="top left">D.1</td><td colspan="1"></td><td colspan="3"><a href="appendix_d.htm#appD_1">Introduction</a></td>
@@ -460,7 +480,7 @@ Instructions (listed in alphabetical order)<br>
     <td colspan="5">&nbsp;</td>
   </tr>
   <tr>
-    <th colspan="5"><a href="appendix_e.htm#appE">APPENDIX E<br>ASCII CHARACTER SET</a></th>
+    <th colspan="5"><a href="appendix_e.htm#appE">APPENDIX E<br>ASCII CHARACTER SET</a><br>PDF pages 207-210</th>
   </tr>
   <tr>
     <td class="top left">E.1</td><td colspan="1"></td><td colspan="3"><a href="appendix_e.htm#appE_1">Introduction</a></td>
@@ -478,7 +498,7 @@ Instructions (listed in alphabetical order)<br>
     <td colspan="5">&nbsp;</td>
   </tr>
   <tr>
-    <th colspan="5"><a href="appendix_f.htm#appF">APPENDIX F<br>OPCODE MAP</a></th>
+    <th colspan="5"><a href="appendix_f.htm#appF">APPENDIX F<br>OPCODE MAP</a><br>PDF pages 211-214</th>
   </tr>
   <tr>
     <td class="top left">F.1</td><td colspan="1"></td><td colspan="3"><a href="appendix_f.htm#appF_1">Introduction</a></td>
@@ -490,7 +510,7 @@ Instructions (listed in alphabetical order)<br>
     <td colspan="5">&nbsp;</td>
   </tr>
   <tr>
-    <th colspan="5">APPENDIX G<br>PIN ASSIGNMENTS</th>
+    <th colspan="5">APPENDIX G<br>PIN ASSIGNMENTS<br>PDF pages 215-216</th>
   </tr>
   <tr>
     <td colspan="5" class="top left">Appendix G will not be htmlized. Same figure as in <a href="sections.htm#sec1_11">section 1.11</a>.</td>
@@ -499,7 +519,7 @@ Instructions (listed in alphabetical order)<br>
     <td colspan="5">&nbsp;</td>
   </tr>
   <tr>
-    <th colspan="5">APPENDIX H<br>CONVERSION TABLE</th>
+    <th colspan="5">APPENDIX H<br>CONVERSION TABLE<br>PDF pages 217-219</th>
   </tr>
   <tr>
     <td colspan="5" class="top left">Appendix H will not be htmlized.</td>
@@ -511,6 +531,7 @@ Instructions (listed in alphabetical order)<br>
 </table>
 
 <h1><a name="loi">List Of Illustrations</a></h1>
+<p>PDF page 10</p>
 <table>
   <tr>
     <td class="top left">1-1</td><td></td><td><a href="sections.htm#fig1-1">Programming Model</a></td>
@@ -560,6 +581,7 @@ Instructions (listed in alphabetical order)<br>
 </table>
 
 <h1><a name="lot">List Of Tables</a></h1>
+<p>PDF pages 11-12</p>
 <table>
   <tr>
     <td class="top left">1-1</td><td></td><td><a href="sections.htm#tab1-1">BA/BS Signal Encoding</a></td>
@@ -651,7 +673,7 @@ Instructions (listed in alphabetical order)<br>
 </table>
 
 <h1><a name="legal">Legal Stuff</a></h1>
-<p>(taken from the last page of the manual)</p>
+<p>PDF page 220</p>
 <p>Motorola reserves the right to make changes without further notice to any products herein.
 Motorola makes no warranty, representation or guarantee regarding the suitability of its products for any particular purpose, nor does Motorola assume any liability arising out of the application or use of any product or circuit, and specifically disclaims any and all liability, including without limitation consequential or incidental damages.
 &quot;Typical&quot; parameters can and do vary in different applications.
@@ -690,13 +712,17 @@ Motorola, Inc. is an Equal Opportunity/Affirmative Action Employer.</p>
 
 <h1><a name="changelog">Change log</a></h1>
 <ul>
-<li>2023-08-15:<br>
-Appendix C, opcode 21: BRN was misspelled BAN (Thanks to Eric Hood)</li>
-<li>2012-09-25:<br>
-Appendix D, instruction ORB: typo in byte count for indexed mode, was 1+ correct is 2+<br>
-Appendix D, instruction SWI3: corrected byte count from 1 to 2</li>
-<li>2008-12-25:<br>
-Appendix C, opcode 27: BEQ was misspelled BEG</li>
+  <li>2024-05-09:<br>
+Updated pages with M6809 Docs team information.<br>
+Separated between errata and corrections.<br>
+Added PDF page numbers for easier review and/or reference.</li>
+  <li>2023-08-15:<br>
+Appendix C, opcode 21: BRN was wrongly HTMLized as BAN (Thanks to Eric Hood)</li>
+  <li>2012-09-25:<br>
+Appendix D, instruction ORB: byte count 2+ for indexed mode was wrongly HTMLized as 1+<br>
+Added errata for Appendix D: instructions ASRA, ASRB, LSR, ORB, SWI3</li>
+  <li>2008-12-25:<br>
+Appendix C, opcode 27: BEQ was wrongly HTMLized as BEG</li>
 </ul>
 
 <hr>
